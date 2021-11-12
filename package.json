@@ -1,0 +1,27 @@
+{
+  "name": "nodesjstakehome",
+  "version": "1.0.0",
+  "description": "take home to create express controllers for an endpoint called /api/loantransactions",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc",
+    "build": "npm run compile",
+    "start": "npm run build && node dist/server.js"
+  },
+  "author": "Brian Wang",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "mongoose": "^5.13.7",
+    "ts-node": "^10.2.0",
+    "type-fest": "^2.0.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97"
+  }
+}

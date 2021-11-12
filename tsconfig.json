@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "pretty": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/package.json"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "deployment"
+    ]
+}
